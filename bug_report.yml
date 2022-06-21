@@ -11,14 +11,9 @@ body:
         ## First of all
         1. Please search for [existing issues](https://github.com/spacedriveapp/spacedrive/issues?q=is%3Aissue) about this problem first.
         2. Make sure you run have the latest version of Rust (`rustup update`) and PNPM (`pnpm add -g pnpm`) along with all relevant Spacedrive dependencies.
-        3. Make sure it's an issue with Spacedrive and not something else you are using.
         4. Remember to follow our community guidelines and be friendly.
 
   - type: textarea
-    id: description
-    attributes:
-      label: Describe the bug
-      description: A clear description of what the bug is. Include screenshots if applicable.
       placeholder: Bug description
     validations:
       required: true
